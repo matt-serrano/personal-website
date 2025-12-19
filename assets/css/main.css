@@ -56,5 +56,74 @@ body {
     
 }
 
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+#leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contentTitle {
+    color: navy;
+    font-family: inter;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contentSubtitle {
+    color: navy;
+    font-family: inter;
+    font-size: 8px;
+    margin: 10px;
+}
+
+.contentText {
+    color: navy;
+    font-family: inter;
+    font-size: 5px;
+    line-height: 2;
+    margin: 10px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.viewPortfolio, .downloadPortfolio {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    line-height: 1;
+}
+
+.viewPortfolio {
+    background-color: navy;
+    color: white;
+}
+
+.downloadPortfolio {
+    color: navy;
+    background-color: white;
+    border: 0.2px solid grey;
+}
+
+
+
 
 
