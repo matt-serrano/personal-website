@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "inter";
+  src: url("../fonts/FontName/Inter-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "inter-italic";
+  src: url("../fonts/FontName/Inter-Italic-VariableFont_opsz\,wght.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: navy;
+    border-bottom: 0.5px solid #e5e5e5;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    color: navy;
+}
+
+#title {
+    color: navy;
+    font-family: inter;
+    font-size: 10px;
+}
+
+.nav {
+    font-family: inter;
+    text-decoration: none;
+    color: inherit;
+    font-size: 7px;
+}
+
+body {
+    background-color: white;
+    
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+#leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contentTitle {
+    color: navy;
+    font-family: inter;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.contentSubtitle {
+    color: navy;
+    font-family: inter;
+    font-size: 8px;
+    margin: 10px;
+}
+
+.contentText {
+    color: navy;
+    font-family: inter;
+    font-size: 5px;
+    line-height: 2;
+    margin: 10px;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.viewPortfolio, .downloadPortfolio {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    line-height: 1;
+}
+
+.viewPortfolio {
+    background-color: navy;
+    color: white;
+}
+
+.downloadPortfolio {
+    color: navy;
+    background-color: white;
+    border: 0.2px solid grey;
+}
+
+
+
+
+
