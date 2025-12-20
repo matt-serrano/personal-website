@@ -74,6 +74,10 @@ body {
     padding: 10px;
 }
 
+#rightSide {
+    width: 10px;
+}
+
 .contentTitle {
     color: navy;
     font-family: inter;
