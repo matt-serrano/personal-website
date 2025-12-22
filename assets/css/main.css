@@ -23,6 +23,10 @@ ul {
 }
 
 header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -141,13 +145,32 @@ body {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color: navy;
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
+}
+
+.foot-titles {
+    display: flex;
+    flex-direction: column;
 }
 
 .footerTitle, .footerSubtitle {
     color: white;
     font-family: inter;
+    padding: 10px;
+}
+
+.footerSubtitle {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.social-list {
+    padding: 10px;
 }
 
 
@@ -155,4 +178,9 @@ footer {
   width: 32px;        
   height: 32px;
   object-fit: contain;
+}
+
+.social-button {
+    border: none;
+    background-color: navy;
 }
