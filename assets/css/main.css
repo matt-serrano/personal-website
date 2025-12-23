@@ -48,12 +48,33 @@ ul {
     font-size: 10px;
 }
 
+.title-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.title-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
 .nav {
     font-family: inter;
     text-decoration: none;
     color: inherit;
     font-size: 7px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 4px 8px;
+    border-radius: 4px;
 }
+
+.nav:hover {
+    color: white;
+    background-color: navy;
+    text-decoration: none;
+}
+
 
 body {
     background-color: white;
@@ -138,13 +159,24 @@ body {
     color: white;
 }
 
+.viewPortfolio:hover {
+    background-color: #000066;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 .downloadPortfolio {
     color: navy;
     background-color: white;
     border: 0.2px solid grey;
 }
 
-footer {
+.downloadPortfolio:hover {
+    background-color: #f0f0f0;
+    border-color: navy;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -181,6 +213,22 @@ footer {
 }
 
 .social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     background-color: navy;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.social-button:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
 }
