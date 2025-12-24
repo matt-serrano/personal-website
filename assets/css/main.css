@@ -233,3 +233,47 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+  padding: 2rem;
+}
+
+.modal-content {
+  background: navy;
+  width: 75%;
+  max-width: 700px;
+  height: 80vh;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.modal-close {
+  align-self: flex-end;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  flex-shrink: 0;
+  color: white;
+  transition: opacity 0.3s ease;
+}
+
+.modal-close:hover {
+  opacity: 0.7;
+}
+
+.resume-frame {
+  flex: 1;
+  width: 100%;
+  border: none;
+}

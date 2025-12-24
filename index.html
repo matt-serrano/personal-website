@@ -33,7 +33,7 @@
                 with Vice National Championship and National Championship titles in Judo and Brazilian Jiu-Jitsu.
             </p>
             <div class="buttons">  
-                <button class="viewPortfolio">View Portfolio</button>
+                <button class="viewPortfolio" id="viewResumeBtn">View Portfolio</button>
                 <a class="downloadPortfolio" href="../assets/resume/Matthew_Serrano_Resume.pdf" download>Download Resume</a>
             </div>
         </div>
@@ -83,6 +83,17 @@
         </ul>
     </footer>
 
-    
+    <div class="modal" id="resumeModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeResumeModal">&times;</button>
+
+            <iframe
+            src="../assets/resume/Matthew_Serrano_Resume.pdf"
+            title="Matthew Serrano Resume"
+            class="resume-frame"
+            ></iframe>
+        </div>
+    </div>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
