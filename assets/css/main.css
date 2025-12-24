@@ -165,6 +165,7 @@ body {
 }
 
 .downloadPortfolio {
+    font-family: inter;
     color: navy;
     background-color: white;
     border: 0.2px solid grey;
