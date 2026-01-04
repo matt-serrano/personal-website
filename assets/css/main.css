@@ -277,3 +277,18 @@ html {
   width: 100%;
   border: none;
 }
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 1em;
+    max-width: 300px;
+    width: 100%;
+}
