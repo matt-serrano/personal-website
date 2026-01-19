@@ -367,3 +367,74 @@ html {
 .skills-box:hover .skills-image {
     opacity: 0;
 }
+
+/* Projects Section */
+.projects-section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.projects-header {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 102, 0.15);
+}
+
+.project-reverse {
+    flex-direction: row-reverse;
+}
+
+.project-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.project-content {
+    flex: 1;
+}
+
+.project-title {
+    color: navy;
+    font-family: inter;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.project-description {
+    color: navy;
+    font-family: inter;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .project-item,
+    .project-reverse {
+        flex-direction: column;
+    }
+    
+    .project-image {
+        width: 100%;
+        max-width: 400px;
+    }
+}
